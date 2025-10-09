@@ -33,3 +33,4 @@ Thumbs.db
 *.log
 *.bak
 *.tmp
+agri_backend/serviceAccountKey.json
