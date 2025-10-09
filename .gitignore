@@ -1,0 +1,35 @@
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# --- Node.js / Frontend ---
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/.nuxt/
+frontend/.cache/
+
+# --- System / IDE files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- General ---
+.env
+*.log
+*.bak
+*.tmp
