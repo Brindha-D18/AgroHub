@@ -23,6 +23,7 @@ from routes.user_routes import router as user_router
 from routes.recommendation_routes import router as recommendation_router
 from routes.maintenance import router as maintenance_router
 from database import check_db_connection
+from routes.assistant_routes import router as assistant_router
 
 # -----------------------------
 # Firebase Admin initialization
@@ -65,6 +66,7 @@ app.include_router(auth_router)
 app.include_router(user_router)
 app.include_router(recommendation_router)
 app.include_router(maintenance_router)
+app.include_router(assistant_router)
 
 # -----------------------------
 # Startup event

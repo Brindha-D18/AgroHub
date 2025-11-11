@@ -95,7 +95,7 @@ class BhuvanAPIService:
                     "format": "json"
                 }
                 
-                response = await client.get(url, params=params, headers=self.headers)
+                response = await client.get(url, params=params, headers=headers)
                 response.raise_for_status()
                 data = response.json()
                 
