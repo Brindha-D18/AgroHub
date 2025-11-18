@@ -94,3 +94,12 @@ async def login(login_data: LoginRequest, db=Depends(get_database)):
         "message": "Login successful",
         "user": UserResponse(**user)
     }
+@router.post("/logout")
+async def logout(): 
+    """
+    Placeholder logout endpoint
+    """
+    return {
+        "success": True,
+        "message": "Logout successful (client-side token discard)"
+    }
